@@ -27,21 +27,7 @@ navLinks.forEach(link => {
 });
 
 
-// ================================
-// CONTACT FORM
-// ================================
 
-const contactForm = document.querySelector(".contact-form");
-
-contactForm.addEventListener("submit", function(event) {
-
-    event.preventDefault();
-
-    alert("Thank you for your message! The contact form will be connected to email later.");
-
-    contactForm.reset();
-
-});
 // ========================================
 // SCROLL REVEAL ANIMATION
 // ========================================
